@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+    <title>Contact A Pexpert | Paradigm Pet Professionals</title>
+
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href="../css/small.css" rel="stylesheet">
+    <link href="../css/medium.css" rel="stylesheet">
+    <link href="../css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="popupform">
+        <div class="row">
+        <section class="closeBtn"><a href="../index.html">&times;</a></section>
+        </div>
+
+        <div class="row">
+            <section class="formcolumn2"><img src="../images/PPP-Logo-new.png" alt="Company logo"></section>
+            <section class="formcolumn2"><h4 id="slogan">Evidence-based pet care advice for every pet lover</h4></section>
+        </div>
+
+        <div class="row">
+            <section class="formcolumn">
+                <h1>Need more help with your fur-ever friend?</h1>
+                <h3>Fill in your contact info below to request a consultation with one of our Pet Experts (Pexperts)</h3>
+                <h4>All fields marked with an asterisk (*) are required</h4>
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="firstName">*First Name:</label>
+            <input type="text" name="firstName" id="firstName" required minlength="2" maxlength="15" placeholder="Enter first name here">
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="lastName">*Last Name:</label>
+            <input type="text" name="lastName" id="lastName" required minlength="2" maxlength="25" placeholder="Enter last name here">
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="email">*Email:</label>
+            <input type="email" name="email" id="email" required placeholder="email@example.com">
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="phone">*Phone:</label>
+            <input type="tel" name="phone" id="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} " placeholder="Format: 123-456-7890">
+           
+            <label for="phonetype">Home</label>
+            <input type="radio" name="phonetype" id="home">
+            <label for="phonetype">Work</label>
+            <input type="radio" name="phonetype" id="work">
+            <label for="phonetype">Mobile</label>
+            <input type="radio" name="phonetype" id="mobile">
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="timezone">*Time Zone:</label>
+            <select name="timezone" id="timezone" required>
+                <option value="">--Select your time zone--</option>
+                <option value="eastern">Eastern (Washington, DC GMT-4)</option>
+                <option value="central">Central (Chicago GMT-5)</option>
+                <option value="mountain">Mountain (Denver GMT-6)</option>
+                <option value="pacific">Pacific (Los Angeles GMT-7)</option>
+                <option value="hawaii">Hawaii-Aleutian (Honolulu GMT-10)</option>
+            </select>
+            </section>
+        </div>
+
+        <div class="row"><section class="formcolumn"></section></div>
+
+        <div class="row">
+           
+            <section class="formcolumn">
+            <h3>Tell Us About Your Pet &#128008 &#128021 &#128001</h3>
+            </section>
+            
+            
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="petname">Pet's Name:</label>
+            <input type="text" name="petname" id="">
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="age">Pet's Age:</label>
+            <input type="text" name="age" id="age">
+            <select name="agetype" id="agetype">
+                <option value=""></option>
+                <option value="days">day(s)</option>
+                <option value="weeks">week(s)</option>
+                <option value="months">month(s)</option>
+                <option value="years">year(s)</option>
+            </select>
+            </section>
+        </div>
+
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="typebreed">Type/Breed</label>
+            <input type="text" name="typebreed" id="typebreed" placeholder="e.g., hamster, tabby, Pug">
+            </section>
+        </div>
+        
+        <div class="row formelement">
+            <section class="formcolumn">
+            <label for="concerns">Main Concern:</label>
+            <textarea name="concerns" id="concerns" cols="30" rows="5"></textarea>
+            </section>
+        </div>
+
+        <div class="row"><section class="formcolumn"></section></div>
+
+        <div class="row formelement">
+            <section class="formcolumn"></section>
+            <section class="formcolumn"></section>
+            <section class="formcolumn"></section>
+            <section class="formcolumn">
+            <a href="../index.html"><button class="contactbutton" type="submit">Submit</button></a>
+            </section>
+        </div>
+
+
+        <div class="row"><section class="formcolumn"></section></div>
+        <div class="row"><section class="formcolumn"></section></div>
+
+    </div>
+</body>
+
+</html>
